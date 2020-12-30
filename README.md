@@ -1,4 +1,4 @@
-# firefly
+# Firefly
 Firefly repo for py webapp
 This is a firefly popup webapp  
 Made by Cameron. Contact:Github.com/Cameron-Programmer
