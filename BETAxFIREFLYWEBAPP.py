@@ -6,6 +6,7 @@ import sys
 Startup = easygui.enterbox("welcome to firefly web app V2.","Firefly Webapp")
 
 if Startup == ("Start"):
+    #Edit directory below to where you stored the HTML file
     os.startfile(r"C:\Users\Cameron\Documents\Code\Fireflyxwebappxpublic.html")
    #this stops the program after an if statment there is proably a better way to do this but this is what you deserve
     sys.exit
@@ -15,7 +16,7 @@ else:
     easygui.msgbox("When prompted click on 'click here'","Firefly Webapp")
     easygui.msgbox("Redirecting....","Firefly Webapp")
     easygui.msgbox("Transfering you now have a good day","Firefly Webapp")
-    #Opens the HTML file 
+    #Opens the HTML file / Edit directory below to where you stored the HTML file
     os.startfile(r"C:\Users\Cameron\Documents\Code\Fireflyxwebappxpublic.html ")
 
 
